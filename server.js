@@ -2,16 +2,23 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
+app.use(express.static(path.resolve(__dirname, "static")));
 
 // register view engine
 app.set("view engine", "ejs");
 
 app.get("/", function (req, res) {
-  res.send("<h1>A Dynamic Website</h1><p>Random value: </p>" + Math.random());
+  res.send("<h1>Here is a random value: </h1>" + Math.random());
 });
 
-app.get("/about", (req, res) => {
-  res.render("about", { title: "About" });
+app.get("/profile", (req, res) => {
+  res.render("profile", {
+    name: req.query.name,
+  });
+});
+
+app.get("/contact", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "static", "contact.html"));
 });
 
 const PORT = 2000;
