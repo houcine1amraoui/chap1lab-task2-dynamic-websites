@@ -12,10 +12,8 @@ In this task, you will get a demonstration of a dynamic website in which a web s
 ## Questions
 
 1. Browse to http://localhost:2000
-2. Check out the source code of the website from the code base using the text editor. Where the home page resides and how the server delivers it?
-3. Where the about page resides and how the server delivers it?
-4. Check out the response status code using the network tool in the browser when the page loads for the first time and in the second. What have you noticed? Why is that?
-5. Create another route called “/hello” that delivers the message “Hello World”.
-6. Restart the server and navigate to the “/hello” page.
-7. Now, go to the project folder via Windows explorer an open index.html file directly through the browser. What have noticed and why?
-8. Explore and navigate through the website using Postman API client.
+2. Check out the source code of the website from the code base using the text editor. Which
+pages rendered by the browser are static and which ones are dynamic? Explain why.
+3. Check out the response status code using the network tool in the browser when the dynamic
+pages are requested for the first time and in the second. What have you noticed? Why is that?
+4. Explore and navigate through the website using Postman API client.
