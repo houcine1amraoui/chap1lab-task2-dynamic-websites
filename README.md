@@ -1,4 +1,4 @@
-# Task 2: Dynamic Websites
+# Chapter 1 Lab - Task 2: Dynamic Websites
 
 In this task, you will get a demonstration of a dynamic website in which a web server delivers a dynamic web page showing a random number at each reload.
 
@@ -13,7 +13,7 @@ In this task, you will get a demonstration of a dynamic website in which a web s
 
 1. Browse to http://localhost:2000
 2. Check out the source code of the website from the code base using the text editor. Which
-pages rendered by the browser are static and which ones are dynamic? Explain why.
+   pages rendered by the browser are static and which ones are dynamic? Explain why.
 3. Check out the response status code using the network tool in the browser when the dynamic
-pages are requested for the first time and in the second. What have you noticed? Why is that?
+   pages are requested for the first time and in the second. What have you noticed? Why is that?
 4. Explore and navigate through the website using Postman API client.
